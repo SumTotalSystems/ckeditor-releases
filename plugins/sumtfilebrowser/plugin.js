@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.add("sumtfilebrowser",{icons:"sumtfilebrowser",init:function(a){a.addCommand("sumtfilebrowser",{exec:function(a){CKEDITOR.fire("fileUpload")}});a.ui.addButton("sumtfilebrowser",{label:"My Bold",command:"sumtfilebrowser",toolbar:"insert,0"})}});
+﻿CKEDITOR.plugins.add("sumtfilebrowser",{icons:"sumtfilebrowser",init:function(a){a.addCommand("sumtfilebrowser",{exec:function(a){CKEDITOR.fire("fileUpload")}});a.ui.addButton("sumtfilebrowser",{label:"File Browser",command:"sumtfilebrowser",toolbar:"insert,0"})}});
