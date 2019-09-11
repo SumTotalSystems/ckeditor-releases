@@ -1,2 +1,2 @@
 ﻿CKEDITOR.plugins.setLang("image3","fr",{alt:"Texte alternatif",btnUpload:"Envoyer sur le serveur",captioned:"Image légendée",captionPlaceholder:"Légende",infoTab:"Informations sur l'image",lockRatio:"Conserver les proportions",menu:"Propriétés de l'image",pathName:"image",pathNameCaption:"légende",resetSize:"Réinitialiser la taille",resizer:"Cliquer et glisser pour redimensionner",title:"Propriétés de l'image",uploadTab:"Téléverser",urlMissing:"L'URL source de l'image est manquante.",altMissing:"Vous n'avez pas indiqué de texte de remplacement.",
-pixels:"Pixels",percentage:"Percentage",sizeImageBy:"Size image by:"});
+pixels:"Pixels",percentage:"Pourcentage",sizeImageBy:"Classer les images par :"});

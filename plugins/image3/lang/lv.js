@@ -1,2 +1,2 @@
 ﻿CKEDITOR.plugins.setLang("image3","lv",{alt:"Alternatīvais teksts",btnUpload:"Nosūtīt serverim",captioned:"Captioned image",captionPlaceholder:"Caption",infoTab:"Informācija par attēlu",lockRatio:"Nemainīga Augstuma/Platuma attiecība",menu:"Attēla īpašības",pathName:"image",pathNameCaption:"caption",resetSize:"Atjaunot sākotnējo izmēru",resizer:"Click and drag to resize",title:"Attēla īpašības",uploadTab:"Augšupielādēt",urlMissing:"Trūkst attēla atrašanās adrese.",altMissing:"Alternative text is missing.",
-pixels:"Pixels",percentage:"Percentage",sizeImageBy:"Size image by:"});
+pixels:"Pikseļi",percentage:"Procentuālā daļa",sizeImageBy:"Noteikt attēla izmēru atbilstoši:"});
