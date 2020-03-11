@@ -15,10 +15,15 @@
 			};
 			tributeOptions["iframe"] = editor.document.getWindow().$;
 			tributeOptions["values"] = editor.config.tributeValues || [];
+			tributeOptions["menuLabel"] = editor.config.tributeLabel || '';
 
 			var tributeInstance = new Tribute(tributeOptions);
 			tributeInstance.attach(editor.document.getBody().$);
 
+			editor.document.getBody().$.addEventListener("tribute-match", function (e) {
+				editor.fire('tributeMatch', e.detail);
+			});
+			
 			editor.editable().on('keydown', function (e) {
 				if (e.data.$.which == 13 && tributeInstance.isActive) {
 					return false;
